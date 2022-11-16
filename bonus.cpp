@@ -4,7 +4,7 @@ using namespace std;
 #include <stack>
 #include <cstring> 
 
-string isPalindrom(string word)
+string IsPalindrom(string word)
 {
     stack<char> charsStack;
 
@@ -27,17 +27,16 @@ string isPalindrom(string word)
 
 int main()
 {
-    cout << "\t\tPalindrome Algorithm\n\n\n";
+    cout << "\t\tAlgorithm\n\n";
 
 
-    cout << "Test \"dad\" : " << isPalindrom("dad") << "\n";
+    cout << "Test \"1\" : " << IsPalindrom("1") << "\n";
 
-    cout << "Test \"madam\" : " << isPalindrom("madam") << "\n";
+    cout << "Test \"2\" : " << IsPalindrom("2") << "\n";
 
-    cout << "Test \"sees\" : " << isPalindrom("sees") << "\n";
+    cout << "Test \"3\" : " << IsPalindrom("3") << "\n";
     
-    cout << "Test \"hello\" : " << isPalindrom("hello") << "\n";
+    cout << "Test \"4\" : " << IsPalindrom("4") << "\n";
 
-    cout << "\n\n\t________________________________________________________\n\n";
-    cout << "\t\tCoded By : Mostafa Ayman Farouk Abdrahem\n\n";
+   
 }
